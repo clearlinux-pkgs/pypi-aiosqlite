@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-aiosqlite
-Version  : 0.18.0
-Release  : 1
-URL      : https://files.pythonhosted.org/packages/bd/b1/9c9c5847461c8eed8fa36e72541c53054987993227e1782d4f92e902cbe6/aiosqlite-0.18.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/bd/b1/9c9c5847461c8eed8fa36e72541c53054987993227e1782d4f92e902cbe6/aiosqlite-0.18.0.tar.gz
+Version  : 0.19.0
+Release  : 2
+URL      : https://files.pythonhosted.org/packages/ea/51/060efa10a814145acd4e42c6e5ed540b8714cad52ca026c5930e7c473049/aiosqlite-0.19.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/ea/51/060efa10a814145acd4e42c6e5ed540b8714cad52ca026c5930e7c473049/aiosqlite-0.19.0.tar.gz
 Summary  : asyncio bridge to the standard sqlite3 module
 Group    : Development/Tools
 License  : MIT
@@ -64,10 +64,10 @@ python3 components for the pypi-aiosqlite package.
 
 
 %prep
-%setup -q -n aiosqlite-0.18.0
-cd %{_builddir}/aiosqlite-0.18.0
+%setup -q -n aiosqlite-0.19.0
+cd %{_builddir}/aiosqlite-0.19.0
 pushd ..
-cp -a aiosqlite-0.18.0 buildavx2
+cp -a aiosqlite-0.19.0 buildavx2
 popd
 
 %build
@@ -75,7 +75,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1680275757
+export SOURCE_DATE_EPOCH=1681746917
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
