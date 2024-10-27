@@ -7,7 +7,7 @@
 #
 Name     : pypi-aiosqlite
 Version  : 0.20.0
-Release  : 8
+Release  : 9
 URL      : https://files.pythonhosted.org/packages/0d/3a/22ff5415bf4d296c1e92b07fd746ad42c96781f13295a074d58e77747848/aiosqlite-0.20.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/0d/3a/22ff5415bf4d296c1e92b07fd746ad42c96781f13295a074d58e77747848/aiosqlite-0.20.0.tar.gz
 Summary  : asyncio bridge to the standard sqlite3 module
